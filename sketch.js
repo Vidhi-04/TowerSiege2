@@ -125,6 +125,8 @@ function mouseReleased(){
 }
 function keyPressed(){
   if(keyCode === 32){
+    polygon.body.position.x = 50;
+      polygon.body.position.y = 200
       slingShot.attach(this.polygon);
   }
 }
